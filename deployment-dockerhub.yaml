@@ -40,7 +40,7 @@ spec:
           value: 9105da4ec7bae4ad23224e6422dff0a3cc9b171c
         - name: SIMULATION_HOST
           value: 192.168.101.2
-        image: 192.168.100.11:5000/laser_edc0df4e
+        image: jzeladmin2006/m321-unlimited-laser-repack
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
